@@ -1,0 +1,146 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	margin-top: 80px;
+	font-size: 14px;
+	background-color: lavender;
+}
+
+#display {
+    background-color: rgb(83, 76, 175); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    width: 75%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/* *  SECTIONS  
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+/* .col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; } */
+
+/*  GROUPING  */
+/* .group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; For IE 6/7 */ 
+
+.container {
+    border: 1px solid black;
+    /* display: inline-grid; */
+    float: left;
+    width: 20%;
+    padding: 10px;
+
+}
+
+#numContainer {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+
+/* .column1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    /* height: 100px; account for borders */
+    /* width: 200px; */
+
+
+.num {
+    background-color: rgb(76, 130, 175); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#cents {
+    background-color: rgb(76, 130, 175); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#dot {
+    background-color: rgb(76, 130, 175); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.math {
+    background-color: rgb(76, 102, 175); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: inline-grid
+}
+
+.cmd {
+    background-color: rgb(76, 175, 145); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* .buttons:after {
+	content: "";
+	display: table;
+	clear: both;
+} */
+
+
+/* @media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+} */
+
